@@ -21,6 +21,6 @@ docker build -t carbon-react-admin .
 ```
 ### Testing the Local Docker Image
 ```sh
-docker run carbon-react-admin -p 7001:7001
+docker run --rm -p 7001:7001 carbon-react-admin
 ```
 Then open http://localhost:7001 to preview the application.
