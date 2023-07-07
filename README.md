@@ -15,3 +15,12 @@ npm run install:all
 ```sh
 npm run develop:all
 ```
+## Building a Local Docker Image
+```sh
+docker build -t carbon-react-admin .
+```
+### Testing the Local Docker Image
+```sh
+docker run carbon-react-admin -p 7001:7001
+```
+Then open http://localhost:7001 to preview the application.
