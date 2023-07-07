@@ -1,0 +1,16 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  // padding: 0;
+}
+
+.children {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.error {
+  padding-top: 3rem;
+}
