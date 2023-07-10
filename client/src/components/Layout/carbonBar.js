@@ -32,7 +32,7 @@ const CarbonBar = (props) => {
 	const languages = useLocales()
   	const [locale, setLocale] = useLocaleState()
   	const translate = useTranslate();
-  	let uiVersion = 'Beta';
+  	let uiVersion = 'Alpha';
 	const handleOnToggle = () => {
     	setOpen((open) => !open)
   	};
