@@ -43,7 +43,7 @@ RUN npm i -g pm2
 WORKDIR /home/watson
 
 # Copy the built application
-COPY --from=builder --chown=app:0 ["/code/server", "/home/watson"]
+COPY --from=builder ["/code/server", "/home/watson"]
 
 RUN chmod -R 777 /home/watson
 
